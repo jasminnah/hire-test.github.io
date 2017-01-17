@@ -1,0 +1,87 @@
+
+
+.dropdown-menu {
+width: 220px; 
+background: #e20014; 
+color: #fff; text-transform: 
+uppercase; font-size: 20px; 
+text-align: left;
+}
+
+.dropdown-menu .btn {
+position: relative;
+display: block;
+width: 220px; 
+height: 41px;
+box-sizing: border-box;
+border-bottom: 1px solid white;
+}
+.dropdown-menu .btn img {
+position: absolute;
+top: 0px;
+left: 0px;
+width: 40px; 
+height: 40px;
+line-height: 40px;
+vertical-align: middle;
+text-align: center;
+background: #e20014; 
+color: #fff; 
+}
+.dropdown-menu .btn .text {
+position: absolute;
+top: 0px;
+left: 40px;
+width: 180px; 
+height: 40px;
+line-height: 40px;
+vertical-align: middle;
+text-align: center;
+background: #e20014; 
+color: #fff; 
+box-sizing: border-box;
+border-left: 1px solid white;
+}
+
+.dropdown-menu .dropdown {
+display: none; /* po defaultu (ako se ne hoveruje misem preko menija) nema prikaza dropdown dela */
+}
+.dropdown-menu:hover .dropdown {
+display: block; /* ako se hoveruje misem preko menija dorpdown se prikazuje */
+position: relative;
+width: 220px; 
+}
+
+.dropdown .option {
+display: block;
+height: 80px;
+line-height: 80px;
+vertical-align: middle;
+width: 220px;
+background: #e20014; 
+color: #fff; 
+}
+.dropdown .option.option-neparna {
+background: #fff; 
+color: #000000;
+}
+
+.dropdown .option img {
+display: inline-block; /* govori elemntu da se ponasa kao slova. da se nizu po zamisljenoj liniji */
+height: 40px;
+line-height: 80px; /* visina zamisljene linije za slova i inline-block elemente */
+vertical-align: middle; /* poravanavanje po sredini visine zamisljene linije */
+text-align: left;
+padding-left: 20px;
+padding-right: 25px;
+}
+.dropdown .option .text {
+display: inline-block;
+height: 80px;
+line-height: 80px;
+vertical-align: middle;
+}
+
+
+
+

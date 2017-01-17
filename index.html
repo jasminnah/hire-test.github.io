@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="Jasmina Mitrovic">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        
+    <title>Home-Hire Test</title>
+        
+    <link rel="stylesheet" type="text/css" href="css/dropdownstyle.css">
+    <link rel="stylesheet" type="text/css" href="js/slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="js/slick/slick-theme.css">
+    <link rel="stylesheet" type="text/css" href="css/navresponsive.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+<body>
+<!--responsive top navigation-->
+     <ul class="topnav" id="myTopnav">
+       <li><a class="active" href="index.html">Page1</a></li>
+       <li><a href="page2.html">Page2</a></li>
+       <li><a href="page3.html">Page3</a></li>
+        <li class="icon">
+         <a href="javascript:void(0);" style="font-size:20px;" onclick="myFunction()"><img src="img/side-menu.png" alt="icon"></a>
+  </li>
+     </ul>
+<div style="padding-left:16px"></div>
+<script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
+<!--responsive top navigation-->
+    <header>
+         <div class="container2">
+                <div class="grid-2">
+                    <img src="img/icons/logo-header.png" alt="logo header">
+                </div> <!--grid-2-->
+                <div class="grid-4">
+                     <div class="dropdown-menu">
+					<div class="btn">
+						<img src="img/icons/arrow-select.png" alt="arrow">
+						<div class="text">Select Option
+						</div>
+					</div>
+					<div class="dropdown">
+						<div class="option">
+							<img src="img/icons/icon-door-1-active.png" alt="door">
+							<div class="text">Option1</div>
+						</div>
+						<div class="option option-neparna">
+							<img src="img/icons/icon-door-1-inactive.png" alt="door2">
+							<div class="text">Option2</div>
+						</div>
+						<div class="option">
+							<img src="img/icons/icon-door-1-active.png" alt="door3">
+							<div class="text">Option3</div>
+						</div>
+					</div> <!--dropdown-->
+				</div> <!--dropdown-menu-->
+              </div> <!--grid-4-->
+             <div class="grid-3">
+                  <nav>
+                       <ul>
+                           <li><a href="index.html" class="active">page1</a></li>
+                           <li><a href="page2.html" class="p2">page2</a></li>
+                           <li><a href="page3.html" class="p3">page3</a></li>
+                        </ul>
+                    </nav>
+             </div> <!--grid-3-->
+             <div class="grid-3">
+                    <ul class="pgroup">
+                       <li><img src="img/icons/phone2.JPG" alt="phone"></li>
+                       <li>012/345-678</li>
+                       <li><br>Lorem ipsum dolor</li>
+                       <li><img class="flag" src="img/icons/flag-lng.png" alt="flag"></li>
+                    </ul> 
+             </div> <!--grid-3-->
+        </div> <!--container2-->
+    </header>
+    <div class="clr"></div>
+        <div class="container">
+            <div class="slideshow">
+                <div class="slide slide1">
+                    <div class="container">
+                       <h1>Nullam risus ultrices et <span>augue</span></h1>
+                        <p>An mei dicat indoctum, et per zril nostro. Per ut idque praesent, illum elitr dicant vel id, at sit sumo etiam aliquam. Eum scripta vituperata elaboraret at, cu tale verterem pro. Platonem postulant pro et, nam malis oportere constituam at, usu altera.
+</p>
+                        <div class="btn">main cta</div>
+                    </div> <!--container2-->
+                </div> <!--slide1-->
+                <div class="slide slide2">
+                    <div class="container">
+                    </div> <!--container-->
+                </div> <!--slide2-->
+                <div class="slide slide3">
+                    <div class="container">
+                    </div> <!--container-->
+                </div> <!--slide3-->
+            </div> <!--slideshow-->
+        </div> <!--container-->
+         <div class="clr"></div>
+        <div class="content1">
+            <div class="container2">
+                <div class="grid-6 about">
+                   <img src="img/page-1/02-image.png" alt="building">
+                </div> <!--grid-6 about-->
+                <div class="grid-6 about">
+                   <h1>Pellentesuqe non <span>est malesuada</span></h1>
+                   <h3>maecenas tempor tincidunt luctus</h3>
+                   <p>An mei dicat indoctum, et per zril nostro. Per ut idque praesent, illum elitr dicant vel id, at sit sumo etiam aliquam. Eum scripta vituperata elaboraret at, cu tale verterem pro. Platonem postulant pro et, nam malis oportere constituam at, usu altera.
+</p>
+                    <a href="#">Underline link</a>
+                </div> <!--grid-6 about-->
+            </div> <!--container2-->
+        </div> <!--content1-->
+        <div class="clr"></div>
+         <div class="content2">
+                <img src="img/page-1/03-image.png" alt="building">
+        <div class="grid-5 sec">
+            <h1 class="title2">Pellentesuqe <span>urna</span></h1> 
+            <h3>moribi ante erat, fermenutam eget diam sit amet</h3>
+            <p>An mei dicat indoctum, et per zril nostro. Per ut idque praesent, illum elitr dicant vel id, at sit sumo etiam aliquam. Eum scripta vituperata elaboraret at, cu tale verterem pro. Platonem postulant pro et, nam malis oportere constituam at, usu altera.
+</p>
+                        <a href="#">Underline link</a>
+            
+        </div> <!--grid-5 sec-->
+        </div> <!--content2-->
+        <div class="clr"></div>
+        <div class="content3">
+            <div class="container2">
+                <div class="grid-12">
+                      <img src="img/sprite/hire.png" alt="hire logo">
+                      <div class="pell">Pellentesque non est at risus</div>
+                      <div class="lob">30 lobortis</div>
+                      <span>donec consequat quam neque, in mattis ex iaculis id. Anenan
+                      <br>ipsum neque, feugiat eget pretium eget, placerat eu lacus.</span>
+                      <div class="btn">main cta</div>
+                </div> <!--grid-12-->
+            </div> <!--container2-->
+        </div> <!--hire-->
+        <div class="clr"></div>
+         <footer>
+            <div class="container2">
+                <div class="grid-4 foot">
+                   <img src="img/icons/logo-footer.png" alt="logo footer">
+                </div> <!--grid-4 foot-->
+                <div class="grid-4">
+<div class="copyright">copyright © 2016 maecenas vel massa ullamcorper</div>
+                </div> <!--grid-4-->
+                   <div class="grid-4">
+                       <div class="navigation">
+                         <a href="index.html" class="active">page1</a>
+                         <a href="page2.html">page2</a>
+                         <a href="page3.html">page3</a>
+                       </div> <!--navigation-->    
+                  </div> <!--grid-4-->
+            </div> <!--container2-->
+        </footer>
+<!--SLICK SLIDER SCRIPT-->
+     <script src="http://code.jquery.com/jquery-latest.js"></script>
+        <script src="js/slick/slick.min.js"></script>
+        <script>
+            $(".slideshow").slick({
+                dots: true,
+                arrows: false,
+                
+            });
+        
+        </script>
+</body>
+</html>
